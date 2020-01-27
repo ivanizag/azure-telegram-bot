@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "func start",
-    "test": "echo \"No tests yet...\"",
+    "test": "echo \"No tests yet...\""
   },
   "dependencies": {
     "telegraf": "^3.36.0"
