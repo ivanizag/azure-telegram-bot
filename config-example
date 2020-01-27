@@ -1,0 +1,5 @@
+RESOURCE_GROUP=MyResourceGroup
+FUNCTION_APP_NAME=MyFunctionApp
+TELEGRAM_BOT_TOKEN=8888888:XXXXXXXXXXXXXXXXXXX
+WEBHOOK_ADDRESS="https://MyFunctionApp.azurewebsites.net/api/QuiMiDicis?code=xxxxxxxxxxxxxxxx=="
+TELEGRAM_BOT_TOKEN_DEV="77777777:xxxxxxxxxxxx"

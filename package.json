@@ -1,0 +1,13 @@
+{
+  "name": "quimidicis_bot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\"",
+  },
+  "dependencies": {
+    "telegraf": "^3.36.0"
+  },
+  "devDependencies": {}
+}
