@@ -1,4 +1,4 @@
-# Example of a Telegram bot build with Azure Function Apps in node.js
+# Example of a Telegram bot built with Azure Function Apps in node.js
 
 First deployment:
 
