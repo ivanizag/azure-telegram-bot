@@ -14,7 +14,7 @@ var bot
 if (process.env["TELEGRAM_BOT_TOKEN"]) {
     prod = true
     bot = new Telegraf(process.env["TELEGRAM_BOT_TOKEN"], { webhookReply: true });
-    bot.telegram.setWebhook(process.env["WEBHOOK_ADDRESS"]);
+    //bot.telegram.setWebhook(process.env["WEBHOOK_ADDRESS"]);
 } else if (process.env["TELEGRAM_BOT_TOKEN_DEV"]) {
     bot = new Telegraf(process.env["TELEGRAM_BOT_TOKEN_DEV"])
 } else {
@@ -24,7 +24,7 @@ if (process.env["TELEGRAM_BOT_TOKEN"]) {
 // Log to console middleware
 bot.use((ctx, next) => {
 	console.log('Message from: ' + ctx.from.username)
-	console.log(ctx.message)
+	//console.log(ctx.message)
 	return next()
 })
 
