@@ -4,7 +4,7 @@ build:
 	npm build
 
 zip: build
-	rm functions.zip
+	rm -f functions.zip
 	zip -q -r functions.zip -x@.funcignore .
 
 deploy: zip

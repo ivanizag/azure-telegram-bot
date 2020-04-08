@@ -7,7 +7,7 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "telegraf": "^3.36.0"
+    "telegraf": "^3.37.0"
   },
   "devDependencies": {}
 }
