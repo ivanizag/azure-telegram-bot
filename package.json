@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "build": "tsc",
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "telegraf": "^3.37.0"
+    "telegraf": "^4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@azure/functions": "^3.2.0",
+    "@types/node": "^18.8.5",
+    "eslint": "^8.25.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.8.4"
+  }
 }

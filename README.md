@@ -1,7 +1,8 @@
-# Example of a Telegram bot built with Azure Function Apps in node.js
+# Example of a Telegram bot built with Azure Function Apps in Typescript
 
 First deployment:
 
+- Install the Azure CLI (see https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) and login
 - Create a new Azure Resource Group or use an existing one. 
 - Create a new Azure Function App
 - Create two bots in Telegram (see https://core.telegram.org/bots) One will be used in production from Azure, the other one will be used locally for testing.
